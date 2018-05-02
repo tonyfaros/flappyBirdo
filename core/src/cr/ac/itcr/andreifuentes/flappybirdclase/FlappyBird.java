@@ -92,7 +92,7 @@ public class FlappyBird extends ApplicationAdapter {
 		font.getData().setScale(10);
 
 
-		//startGame();
+		startGame();
 	}
 
 
@@ -117,12 +117,14 @@ public class FlappyBird extends ApplicationAdapter {
 		batch.begin();
 		batch.draw(background, 0,0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
 
-
+		int distanciaEntreBloques = Gdx.graphics.getWidth();
 		// no iniciado
 		if (game_state == 0){
 			if (Gdx.input.justTouched()){
-				if(Gdx.input.getX() < Gdx.graphics.getWidth()/3){
-					distance = d*15/10;
+				if(Gdx.input.getX() < distanciaEntreBloques / 2){
+					distance = distanciaEntreBloques*15/10;
+				}else{
+					distance = distanciaEntreBloques *4/6;
 				}
 				game_state = 1;
 			}
