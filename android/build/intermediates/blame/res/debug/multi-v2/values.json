@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Anthony-PC\\Desktop\\prueba\\ic-8041-flappybird\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Anthony-PC\\Desktop\\prueba\\ic-8041-flappybird\\android\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "19",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "484"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "108",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "566"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Anthony-PC\\Desktop\\prueba\\ic-8041-flappybird\\android\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "59",
+                        "endColumns": "52",
+                        "endOffsets": "107"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "52",
+                        "endOffsets": "103"
+                    }
+                }
+            ]
+        }
+    ]
+}
